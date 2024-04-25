@@ -38,5 +38,6 @@ class Database:
 
 if __name__ == "__main__":
     db=Database()
+    db.reset()
     db.seed(1000)
     print(db.html_table())
